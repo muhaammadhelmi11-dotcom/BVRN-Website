@@ -1,18 +1,244 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="id">
 
 <head>
 
-<title>BVRN</title>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BVRN®</title>
+
+<style>
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+font-family:Arial, sans-serif;
+
+}
+
+body{
+
+background:#000;
+
+color:white;
+
+}
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:70px;
+
+letter-spacing:8px;
+
+}
+
+.hero p{
+
+margin-top:15px;
+
+color:#bdbdbd;
+
+font-size:18px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+margin-top:30px;
+
+padding:14px 35px;
+
+border:1px solid white;
+
+color:white;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:white;
+
+color:black;
+
+}
+
+.collection{
+
+padding:80px 20px;
+
+text-align:center;
+
+}
+
+.collection h2{
+
+font-size:35px;
+
+margin-bottom:40px;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:20px;
+
+max-width:1000px;
+
+margin:auto;
+
+}
+
+.card{
+
+background:#111;
+
+padding:20px;
+
+border:1px solid #222;
+
+}
+
+.card img{
+
+width:100%;
+
+height:300px;
+
+object-fit:cover;
+
+}
+
+.card h3{
+
+margin-top:15px;
+
+}
+
+.footer{
+
+padding:50px 20px;
+
+text-align:center;
+
+border-top:1px solid #222;
+
+}
+
+.footer a{
+
+color:white;
+
+text-decoration:none;
+
+margin:0 10px;
+
+}
+
+</style>
 
 </head>
 
 <body>
 
+<section class="hero">
+
 <h1>BVRN®</h1>
 
-<p>Built For The Streets.</p>
+<p>BUILT FOR THE STREETS</p>
+
+<a href="#" class="btn">SHOP NOW</a>
+
+</section>
+
+<section class="collection">
+
+<h2>NEW DROP</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?w=800" alt="">
+
+<h3>OVERSIZED TEE</h3>
+
+<p>Rp 199.000</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800" alt="">
+
+<h3>STREET HOODIE</h3>
+
+<p>Rp 349.000</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800" alt="">
+
+<h3>CARGO PANTS</h3>
+
+<p>Rp 299.000</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<h3>BVRN®</h3>
+
+<br>
+
+<a href="#">Instagram</a>
+
+<a href="#">TikTok</a>
+
+<a href="#">WhatsApp</a>
+
+</footer>
 
 </body>
 
